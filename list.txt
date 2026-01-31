@@ -1,0 +1,6 @@
+i have to make student management system with html , css , js , tailwind
+and 
+weather app with async and await
+
+
+=> in these two project we cover crud and api handling , tailwind css

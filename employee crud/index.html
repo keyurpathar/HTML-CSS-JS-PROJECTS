@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="main">
+        <div class="left-side">
+
+            <h1>Employe ID Card Maker</h1>
+
+            <form action="">
+
+                <label for="photo">click here to add photo of your self : </label>
+                <input type="file" id="photo" accept="image/jpeg , image/png , image/jpg">
+
+                <label for="fname">First Name : </label>
+                <input type="text" id="fname" placeholder="enter your first name"> <br>
+
+                <label for="lname">Last Name : </label>
+                <input type="text" id="lname" placeholder="enter your last name"> <br>
+
+                <label for="fname">ID Number : </label>
+                <input type="text" id="idnumber" placeholder="enter your ID number"> <br>
+
+                <label for="fname">E-mail : </label>
+                <input type="email" id="email" placeholder="enter your email"> <br>
+
+                <label for="position">Position :</label>
+                <input type="text" id="position" placeholder="enter your position"> <br>
+
+                <button type="button" id="submitbtn" onclick="getValue()">Submit your details</button>
+
+
+            </form>
+        </div>
+
+
+        <div class="right-side">
+
+            <h1>Employee card</h1>
+
+            <div class="card" align="center">
+
+
+                <img src="" alt="" id="picbody">
+
+                <div id="tbl">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
