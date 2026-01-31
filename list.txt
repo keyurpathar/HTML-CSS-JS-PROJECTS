@@ -3,4 +3,4 @@ and
 weather app with async and await
 
 
-=> in these two project we cover crud and api handling , tailwind css
+=> In these two project we cover crud and api handling , tailwind css
